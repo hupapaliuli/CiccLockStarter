@@ -1,4 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.example.autoconfig.UserAutoConfig,\
 org.example.autoconfig.CiccLockAutoConfig
 
