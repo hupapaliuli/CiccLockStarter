@@ -2,7 +2,7 @@
 
 (1)
 **引入分布式锁maven坐标**
-`<dependency>
+<dependency>
     <groupId>org.example</groupId>
     <artifactId>cicclock-spring-boot-starter</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -11,7 +11,7 @@
 (2)
 **spring服务的配置文件（application.properties 或 nacos配置文件 或统一配置中心等）增加一下配置：**
 `cicc.redission.enabled=true
-cicc.redission.ip=10.180.41.14
+cicc.redission.ip=10.180.123.123
 cicc.redission.port=6379
 cicc.redission.password=123456
 cicc.redission.timeout=6000`
